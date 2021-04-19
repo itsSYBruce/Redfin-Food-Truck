@@ -1,11 +1,11 @@
-##FOOD TRUCK FINDER <br />
+## FOOD TRUCK FINDER <br />
 
-###Introduction
+### Introduction
 
 The program retrieves all food truck data based on criteria and
 requirements specified. 
 
-###To build and run the application
+### To build and run the application
 The project was built on a Mac machine inside of intelliJ, with Java 11 and Maven 3.6.0 <br />
 If they have not been installed on your end, please follow instructions here: <br />
 1. Java: 
@@ -32,7 +32,7 @@ and address printed in the terminal. You would also have a few options to naviga
 2. 'prev', to move to the previous page
 3. 'quit', to quit the application
 
-###How to turn this into a more capable web application <br />
+### How to turn this into a more capable web application <br />
 
 1.  Code base:
 * We could have our code be more flexible to possibly accept dynamic parameters entered by our users, such as
