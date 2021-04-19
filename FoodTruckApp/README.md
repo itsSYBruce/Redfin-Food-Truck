@@ -32,6 +32,10 @@ and address printed in the terminal. You would also have a few options to naviga
 2. 'prev', to move to the previous page
 3. 'quit', to quit the application
 
+### Demo
+
+![](https://github.com/itsSYBruce/Redfin-Food-Truck/blob/master/FoodTruckApp/food%20truck%20demo.gif)
+
 ### How to turn this into a more capable web application <br />
 
 1. Code base:
