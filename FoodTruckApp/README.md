@@ -34,7 +34,7 @@ and address printed in the terminal. You would also have a few options to naviga
 
 ### How to turn this into a more capable web application <br />
 
-1.  Code base:
+1. Code base:
 * We could have our code be more flexible to possibly accept dynamic parameters entered by our users, such as
     the page limit and specified time to query.
 * We would add more error handling and global exception handler to make sure we cover all corner cases and 
@@ -42,7 +42,7 @@ and address printed in the terminal. You would also have a few options to naviga
 * We could provide more options for the output to offer more flexibility in terms of how users could view it.  
 * We would add automated unit and integration tests, and have CI/CD systems to deliver features. <br />
    
-2.Architecture:
+2. Architecture:
 * Due to the limited number of calls we could make to Socrata's end points per hour, and the relatively slow 
 internet I/O response time
     - We could benefit by having our own databases and storage solutions,
@@ -55,7 +55,7 @@ internet I/O response time
     from the cache, do we go proceed with more expensive and time consuming operations.
     - We could have have Kafka-like tools to collect telemetries and help us better understand user behaviors.
 
-3.Infrastructure:
+3. Infrastructure:
 * We could add load balancers to distribute load during the most demanding hours and have databases scale to have 
 backup nodes or "slave" nodes in case of data loses.
 * We could add CDNs to work with caching layer and serve the nearest users to cut down the delay.
